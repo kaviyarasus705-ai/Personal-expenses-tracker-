@@ -1,0 +1,123 @@
+# Personal-expenses-tracker-
+Personal Expenses Tracker is a simple application used to record and manage daily expenses. It helps users track spending, organize expenses, and manage their budget easily.
+Personal Expenses Tracker
+
+---
+
+1. PROJECT TITLE
+
+Personal Expenses Tracker
+
+---
+
+2. PROJECT OVERVIEW
+
+The Personal Expenses Tracker is a web-based application designed to help users manage and track their daily expenses efficiently. The system allows users to record expenses, categorize spending, monitor financial activities, and generate reports to maintain better budget control.
+
+---
+
+3. PROBLEM STATEMENT
+
+Managing personal expenses manually can lead to poor financial planning, inaccurate calculations, and difficulty in tracking spending habits. A digital expense tracking system is required to maintain organized financial records and improve money management.
+
+---
+
+4. PROJECT OBJECTIVES
+
+- Track daily expenses efficiently.
+- Categorize expenses for better organization.
+- Improve budget management.
+- Reduce manual calculation errors.
+- Generate expense reports easily.
+- Monitor spending habits.
+
+---
+
+5. PROJECT MODULES
+
+Module 1: User Management
+
+- User Registration
+- Secure Login System
+- Profile Management
+- Password Security
+
+Module 2: Expense Management
+
+- Add Expenses
+- Edit Expenses
+- Delete Expenses
+- Expense Categorization
+
+Module 3: Budget Monitoring
+
+- Budget Setting
+- Expense Tracking
+- Spending Limit Alerts
+- Monthly Expense Summary
+
+Module 4: Reports & Analytics
+
+- Daily Expense Reports
+- Monthly Expense Reports
+- Expense Category Analysis
+- Exportable Reports
+
+Module 5: Dashboard Management
+
+- Expense Overview
+- Financial Summary
+- Budget Status Monitoring
+- Data Management
+
+---
+
+6. DATABASE TABLES
+
+- Users
+- Expenses
+- Categories
+- Budgets
+- Reports
+
+---
+
+7. EXPENSE_RECORD TABLE
+
+Field Name| Data Type| Description
+expense_id| INT| Unique Expense Identifier
+user_id| INT| User Reference ID
+category| VARCHAR| Expense Category
+amount| FLOAT| Expense Amount
+expense_date| DATE| Date of Expense
+description| VARCHAR| Expense Details
+
+---
+
+8. TECHNOLOGIES USED
+
+Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+Backend
+
+- Python (Flask)
+
+Database
+
+- MySQL
+
+Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+9. EXPECTED OUTCOME
+
+The system will provide a simple, secure, and user-friendly platform for managing personal expenses. It will help users track spending, improve budgeting, reduce unnecessary expenses, and maintain organized financial records efficiently.
